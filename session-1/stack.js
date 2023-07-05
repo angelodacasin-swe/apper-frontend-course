@@ -13,39 +13,41 @@ stack.check() // []
 stack.pop() // “Stack is currently empty.”
 */
 
-
-class Queue {
-
-  // Construct basic queue structure; an empty array.
+class Stack {
+  // Construct basic stack structure; an empty array
   constructor() {
-    this.queue = [];
-  }
-  
-  // Add element 'n'
-  enqueue(n) {
-    this.queue.push(n);
+    this.stack = [];
   }
 
-  // Removes/discards the first element in the array. Here, 'Milk' is removed.
-  dequeue() {
-    this.queue.shift();
+  // Add an element to the top of the stack
+  push(element) {
+    this.stack.push(element);
   }
 
-  // Check and return the corresponding code depending on the condition met.
+  // Remove the top element from the stack
+  pop() {
+    if (this.stack.length > 0) {
+      this.stack.pop();
+    } else {
+      console.log("Stack is currently empty.");
+    }
+  }
+
+  // Return the elements in the stack
   check() {
-    if(this.queue.length > 0) 
-      console.log(this.queue);
-    else
-      console.log("Queue is empty")
+    return this.stack;
   }
 }
 
-// FIFO queue
-const my_queue = new Queue();
-my_queue.enqueue('Milk')
-my_queue.enqueue('Eggs')
-my_queue.check()
-my_queue.dequeue()
-my_queue.check()
-my_queue.dequeue()
-my_queue.check()
+const stack = new Stack();
+stack.push("Milk");
+stack.push("Eggs");
+console.log(stack.check()); // ["Milk", "Eggs"]
+
+stack.pop();
+console.log(stack.check()); // ["Milk"]
+
+stack.pop();
+console.log(stack.check()); // []
+
+stack.pop(); // "Stack is currently empty."
