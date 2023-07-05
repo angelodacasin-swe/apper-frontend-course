@@ -20,4 +20,4 @@ function convertToVowels(word) {
 
 const word = 'thisissomeword' // variable 'word' contains the string 'thisissomeword'
 const wordWithOnlyVowels = convertToVowels(word) // perform the function on 'convertToVowels' and apply it on the word variable. Assign it then to the 'wordWithOnlyVowels' variable
-console.log(wordWithOnlyVowels) // the output will return 'iioeo'
+console.log(wordWithOnlyVowels) // 'iioeo'
