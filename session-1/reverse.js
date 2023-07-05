@@ -9,20 +9,19 @@ const reversedWord = reverse(word)
 console.log(reversedWord) // 'olleh'
 */
 
-
 function reverse(word) {
-  let reversedWord = ''
+  let reversedWord = '';
 
-  for (let i = word.length -1; i >= 0; i--) {
-    reversedWord += word[i]
+  for (let i = word.length - 1; i >= 0; i--) {
+    reversedWord += word[i];
   }
   
-  return reversedWord
+  return reversedWord;
 }
 
-const word = 'hello'
-const reversedWord = reverse(word)
-console.log(reversedWord) // the result should be 'olleh'
+const word = 'hello';
+const reversedWord = reverse(word);
+console.log(reversedWord); // 'olleh'
 
 
 /* 
@@ -31,21 +30,20 @@ ALTERNATIVE SOLUTION:
 
 function reverse(word) {
   const reversedWord = word 
- 
-  // convert string to an array
-  .split('') 
-  // reverse the letters in the array
-  .reverse() 
-  // join the letters in the array so that it becomes a string again
-  .join('') 
+    // convert string to an array
+    .split('')
+    // reverse the letters in the array
+    .reverse()
+    // join the letters in the array so that it becomes a string again
+    .join('');
 
-  return reversedWord
+  return reversedWord;
 }
 
 // declare a constant variable 'word' that has the value 'hello'
-const word = 'hello'
-// call the 'reverse' function and apply it the 'word' variable
-const reversedWord = reverse(word)
-// print the result of 'reversedWord. The result should be 'olleh'
-console.log(reversedWord) 
+const word = 'hello';
+// call the 'reverse' function and apply it to the 'word' variable
+const reversedWord = reverse(word);
+// 'olleh'
+console.log(reversedWord);
 */
