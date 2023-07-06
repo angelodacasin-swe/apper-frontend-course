@@ -1,0 +1,260 @@
+.header {
+  display: flex;
+  background-color: black;
+  flex-direction: row;
+  align-items: center;
+  height: 100%;
+  width: 100%;
+  border: 1px solid cyan;
+}
+
+.header .text {
+  font-family: Arial, sans-serif;
+  color: white;
+  font-weight: bold;
+  font-size: 12px;
+  letter-spacing: 1px;
+  line-height: 0;
+  border: 1px solid white;
+  padding: 5px;
+}
+.social-buttons {
+  display: flex;
+  align-items: center;
+  margin-left: auto;
+  margin-right: 20px; 
+}
+
+.social-buttons .social-button {
+  margin-left: 10px;
+  color: white;
+  font-size: 18px;
+}
+
+.user-navigation {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 100%;
+  width: 100%;
+  border: 1px solid black;
+  background-color: lightgray;
+}
+
+.user-navigation {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 100%;
+  width: 100%;
+  border: 1px solid black;
+  background-color: lightgray;
+}
+
+.user-navigation .navigation-buttons {
+  font-family: Arial, sans-serif;
+  font-size: 17px;
+  font-weight: bold;
+  text-align: center;
+  color: black;
+}
+
+.navigation-buttons ul {
+  display: flex;
+  list-style: none;
+  margin: 2px;
+  padding: 2px;
+  width: 100%;
+  justify-content: flex-end;
+}
+
+.navigation-buttons li {
+  flex: 1;
+  padding: 10px;
+  border: 1px solid black;
+}
+
+.navigation-buttons li a {
+  text-decoration: none;
+  color: black;
+}
+
+.navigation-buttons li a:hover {
+  text-decoration: underline;
+}
+
+#more-dropdown {
+  font-family: Arial, sans-serif;
+  font-size: 17px;
+  font-weight: bold;
+  text-align: center;
+  color: black;
+  border: 1px solid black;
+  background-color: transparent;
+  padding: 2px;
+}
+
+#more-dropdown option {
+  font-family: Tahoma;
+  font-weight: bold;
+  color: black;
+}
+
+.image-whitespace-header{
+  position: relative;
+  display: flex;
+  border: 2px solid white;
+  margin-left: 10px;
+  width: 900px;
+  height: 43.625px;
+
+}
+
+.extra-button {
+    display: flex;
+    align-items: center;
+    margin-left: 10px;
+    font-family: Arial, sans-serif;
+    font-size: 17px;
+    font-weight: bold;
+}
+
+.whitespace-top {
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.advertisement img {
+  max-width: 28%;
+  max-height: 28%;
+  display: flex;
+  margin: auto;
+  border: 1px solid black;
+}
+
+.advertisement-tag {
+  font-family: Tahoma;
+  font-size: 9px;
+  text-align: center;
+  border: 1px solid black;
+}
+
+.whitespace-bottom {
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.container {
+  position: relative;
+  width: 100%;
+  height: 1000px;
+}
+
+.box {
+  position: absolute;
+  width: 200px;
+  height: 500;
+  background-color: black;
+  z-index: 2;
+  margin-top: 20px;
+}
+
+.user-menu {
+  display: flex;
+  justify-content: flex-start;
+  border: 1px solid black;
+  background-color: lightgray;
+  height: 225px;
+}
+
+.user-menu .menu-buttons {
+  font-family: Arial, sans-serif;
+  font-size: 24px;
+  font-weight: normal;
+  text-align: center;
+  color: black;
+  margin-top: 90px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.menu-buttons nav {
+  width: 100%;
+  height: 48px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.menu-buttons nav ul {
+  display: flex;
+  list-style: none;
+  width: 100%;
+  }
+  
+  .menu-buttons nav li {
+  flex: auto;
+  padding: 35px;
+  border: 1px solid black;
+  text-align: center;
+  }
+  
+  .menu-buttons nav li a {
+  text-decoration: none;
+  color: black;
+  }
+  
+  .menu-buttons nav li a:hover {
+  text-decoration: underline;
+  }
+  
+  .buttons-navigate {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 10px;
+  }
+  
+  .button {
+  margin-left: 10px;
+  }
+
+  .block-container {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .right-column .news-box:first-child {
+    margin-top: 20px;
+  }
+
+  .left-column,
+  .right-column {
+    width: 45%;
+  }
+
+  .left-column img {
+    width: 850px;
+    height: auto;
+  }
+  
+  .news-box {
+    background-color: white;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid black;
+  }
+  
+  .news-box h3 {
+    margin: 0;
+    background-color: white
+  }
+
+.whitespace-right-column {
+  margin-top: 25px;
+  margin-bottom: 25px;
+  background-color: white;
+}
+  
+.news-box p {
+  margin-top: 5px;
+}
