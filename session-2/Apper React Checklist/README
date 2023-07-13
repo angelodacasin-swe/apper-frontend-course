@@ -1,0 +1,20 @@
+Angelo B. Dacasin - SWE
+[Session 2]
+
+https://jsphbtst.notion.site/Intro-to-Frontend-Engineering-Session-2-73035a6673c641d7aa8b213466965771
+## Homework
+For this homework, create a folder called `**session-2**` in your `**apper-frontend-course`** repo and add two text 
+files named `**checklist.txt**` and `**fetch-joke.txt**`. These two text files will contain the respective links 
+of your CodeSandbox projects. With that being said, create your React projects from CodeSandbox.
+
+1. Create an application that takes in text input from a user, and renders the inputs as part of an 
+unordered list (a checklist). When the user clicks on a checklist item (specifically, the `<li>` element), 
+that should be removed from the UI. The CodeSandbox project should be named `**Apper React Checklist`** and 
+the link should be inside `**checklist.txt`.
+  a. `checklist.map((item, **index**) => {})`
+  b. Spread Operator
+  c. Only one way to mutate state
+
+===============================================================================================
+Link to session 2 homework repo: https://github.com/angelodacasin-swe/apper-frontend-course/tree/main/session-2/Apper%20React%20Checklist
+Link to checklist.txt: https://github.com/angelodacasin-swe/apper-frontend-course/blob/main/session-2/Apper%20React%20Checklist/checklist.txt
